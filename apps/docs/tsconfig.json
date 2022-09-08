@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/nextjs.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "extends": "astro/tsconfigs/base",
+  "include": ["astro.config.mjs", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
