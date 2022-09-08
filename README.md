@@ -1,6 +1,7 @@
-# Turborepo starter
+# Turborepo Next.js + Astro
 
-This is an official npm starter turborepo.
+Next.js to create your awesome app.
+Astro is great for your app's blog.
 
 ## What's inside?
 
@@ -8,7 +9,7 @@ This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It inclu
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
+- `docs`: a [astro](https://astro.build/) app
 - `web`: another [Next.js](https://nextjs.org) app
 - `ui`: a stub React component library shared by both `web` and `docs` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
@@ -61,13 +62,6 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 npx turbo link
 ```
 
-## Useful Links
+## Todos
 
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turborepo.org/docs/core-concepts/pipelines)
-- [Caching](https://turborepo.org/docs/core-concepts/caching)
-- [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+- add [create-t3-app](https://github.com/t3-oss/create-t3-app) stack on /web
